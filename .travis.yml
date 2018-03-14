@@ -9,8 +9,7 @@ deploy:
   provider: script
   before_script:
   - npm install
-  script: 
   - hexo generate
-  - gulp deploy
+  script: gulp deploy
   on:
     branch: development
