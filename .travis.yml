@@ -12,7 +12,7 @@ deploy:
   provider: script
   before_script:
   - npm install
-  - npm install --global gulp-cli
+  - npm install hexo-cli -g
   script: hexo g -d
   on:
     branch: development
