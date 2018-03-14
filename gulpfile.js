@@ -1,6 +1,8 @@
 var gulp = require('gulp');
 var deploy = require('gulp-gh-pages');
 var exec = require('child_process').exec;
+var Hexo = require('hexo');
+var hexo = new Hexo(process.cwd(), {});
 
 gulp.task('deploy', ['build-deploy'] , function () {
   return gulp.src('./public/**/*')
@@ -8,5 +10,8 @@ gulp.task('deploy', ['build-deploy'] , function () {
 });
 
 gulp.task('build-deploy', function() {
-  exec('hexo generate')
+  hexo.init();
+  hexo.call('generate', {}, function() {
+    console.log('Generating Hexo Files');
+  });
 });

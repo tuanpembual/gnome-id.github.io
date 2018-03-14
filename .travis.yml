@@ -1,7 +1,4 @@
 language: node_js
-branches:
-  only:
-  - development
 before_deploy:
 - git config --global user.email publish@travis.github
 - git config --global user.name "Travis"
@@ -11,9 +8,9 @@ deploy:
   skip_cleanup: true
   provider: script
   before_script:
-  - npm install hexo-cli -g
+  - npm install gulp-cli -g
   - npm install
-  script: hexo g -d
+  script: gulp deploy
   on:
     branch: development
 env:
