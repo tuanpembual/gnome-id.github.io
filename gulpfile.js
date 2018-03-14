@@ -8,7 +8,7 @@ gulp.task('deploy', ['build-deploy'] , function () {
 });
 
 gulp.task('build-deploy', function(cb) {
-  exec('hexo generate', function(err, stdOut, stdErr) {
+  exec('hexo generate', function(err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
     cb(err);
