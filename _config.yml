@@ -79,5 +79,5 @@ theme: landscape
 deploy:
   type: git
   skip_cleanup: true
-  repo: https://${GITHUB_TOKEN}@github.com/gnome-id/gnome-id.github.io.git
+  repo: https://__GITHUB_TOKEN__@github.com/gnome-id/gnome-id.github.io.git
   branch: master
