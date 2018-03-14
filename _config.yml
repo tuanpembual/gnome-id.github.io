@@ -77,4 +77,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  skip_cleanup: true
+  repo: https://${GITHUB_TOKEN}@github.com/gnome-id/gnome-id.github.io.git
+  branch: master
