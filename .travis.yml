@@ -11,8 +11,8 @@ deploy:
   skip_cleanup: true
   provider: script
   before_script:
-  - npm install
   - npm install hexo-cli -g
+  - npm install
   script: hexo g -d
   on:
     branch: development
