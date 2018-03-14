@@ -7,10 +7,6 @@ gulp.task('deploy', ['build-deploy'] , function () {
     .pipe(deploy({origin: 'origin', branch: 'master'}));
 });
 
-gulp.task('build-deploy', function(cb) {
-  exec('hexo generate', function(err, stdout, stderr) {
-    console.log(stdout);
-    console.log(stderr);
-    cb(err);
-  })
-})
+gulp.task('build-deploy', function() {
+  exec('hexo generate')
+});
