@@ -5,6 +5,9 @@
   "hexo": {
     "version": "3.6.0"
   },
+  "scripts": {
+    "build": "hexo clean && hexo generate && hexo deploy"
+  },
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-gh-pages": "^0.5.4",
