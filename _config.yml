@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
-timezone:
+title: GNOME ID
+subtitle: Komunitas GNOME Indonesia
+description: Portal Komunitas GNOME Indonesia
+author: GNOME Indonesia
+language: id_ID
+timezone: Asia/Jakarta
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://gnome-id.github.io
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:day/:title.html
 permalink_defaults:
 
 # Directory
