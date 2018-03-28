@@ -1,0 +1,32 @@
+menu:
+    Beranda: /
+    Arsip: /archives/
+    Agenda: /categories/live/
+    Dokumentasi: /categories/film/
+    Tentang: /about/
+
+widgets:
+- category
+- tag
+- tagcloud
+- archive
+
+# count
+show_count: true
+favicon: /images/favicon.png
+logo: /images/logo.png
+
+# Comment
+changyan: bubuzou
+yungentie: 
+disqus:
+duoshuo: 
+
+
+# Analytics
+# google-analytics:
+ga: UA-65933410-1
+
+# Copyright Infomation
+startyear: 2016
+
