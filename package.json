@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "3.6.0"
+    "version": "3.7.0"
   },
   "scripts": {
     "build": "hexo clean && hexo generate && hexo deploy"
@@ -11,7 +11,7 @@
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-gh-pages": "^0.5.4",
-    "hexo": "^3.6.0",
+    "hexo": "^3.7.0",
     "hexo-browsersync": "^0.3.0",
     "hexo-deployer-git": "^0.3.1",
     "hexo-generator-archive": "^0.1.5",
