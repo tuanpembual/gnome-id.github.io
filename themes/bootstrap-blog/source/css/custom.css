@@ -11,7 +11,7 @@
 /* Globals */
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Cantarell;
   color: #555;
 }
 
@@ -63,7 +63,7 @@ code {
  */
 
 .navbar {
-  background-color: #428bca;
+  background-color: #4a86cf;
   -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
           box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
 }
@@ -308,4 +308,12 @@ code {
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
+}
+
+/* Navbar */
+.navbar-brand {
+	margin-bottom: 10px;
+}
+.navbar-nav {
+	margin-top: 10px;
 }

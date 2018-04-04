@@ -15,7 +15,7 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="main-menu-navbar">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav pull-right">
         <% for (var i in theme.menu){ %>
           <li><a class="<%= is_current(theme.menu[i]) ? 'active' : '' %>"
                  href="<%- url_for(theme.menu[i]) %>"><%= i %></a></li>
