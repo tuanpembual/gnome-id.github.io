@@ -72,7 +72,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-bubuzou
+theme: bootstrap-blog
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -81,3 +81,22 @@ deploy:
   skip_cleanup: true
   repo: https://__GITHUB_TOKEN__@github.com/gnome-id/gnome-id.github.io.git
   branch: master
+
+theme_config:
+  # Header
+  navbar_brand: <img src="/img/gnome-logo.png">
+  favicon: '/img/favicon.ico'
+  twitter: GNOME_ID
+  menu:
+    Home: index.html
+    Archives: archives/
+  widgets:
+   - about
+   - category
+   - archive
+   - recent_posts
+   - tag
+  about_widget_content: >
+    <p>Selamat datang di Komunitas GNOME Indonesia</p>
+    <p>Grup Telegram: <a href="t.me/gnomeid">t.me/gnomeid</a></p>
+    <p>Twitter: <a href="http://twitter.com/GNOME_ID">@GNOME_ID</a></p>
