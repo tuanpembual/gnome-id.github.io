@@ -3,11 +3,11 @@ title: Release Party GNOME 3.18
 categories:
   - acara
 date: 2015-09-25 12:00:00
-thumbnail: img/2015-09-25/poster-gnome.png
+thumbnail: poster-gnome.png
 tags: GNOME, release party
 ---
 
-![GNOME 3.18 Release Party](img/2015-09-25/poster-gnome.png)
+{% asset_img "poster-gnome.png" "GNOME 3.18 Release Party" %}
 
 <p align="center">
 

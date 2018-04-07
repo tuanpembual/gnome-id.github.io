@@ -7,7 +7,7 @@ thumbnail: img/2018-03-03/recipes-sticker.png
 tags: GNOME, hackfest
 ---
 
-![](img/2018-03-03/recipes-sticker.png)
+{% asset_img recipes-sticker.png %}
 
 Pada tanggal 28 Februari hingga 2 Marert 2018, telah diadakan [Recipes Hackfest 2018](https://wiki.gnome.org/Hackfests/Recipes2018) bertempat di AMIKOM Yogyakarta.
 
@@ -20,8 +20,8 @@ Cerita lengkap dari Ahmad Haris dan Kukuh Syafaat dapat disimak pada tautan beri
 * [Attending GNOME Hackfest 2018](https://ahmadharis.wordpress.com/2018/03/07/attending-gnome-hackfest-2018/)
 * [GNOME Recipes Hackfest 2018](https://blogs.gnome.org/cho2/2018/03/09/gnome-recipes-hackfest-2018/)
 
-![Makan-makan](img/2018-03-03/IMG_20180303_064103_732.jpg)
+{% asset_img IMG_20180303_064103_732.jpg Makan-makan %}
 
-![Makan-makan lagi](img/2018-03-03/IMG_20180301_230958_104.jpg)
+{% asset_img IMG_20180301_230958_104.jpg Makan-makan lagi %}
 
-![Makan-makan lagi, terakhir](img/2018-03-03/IMG_20180303_005456_197.jpg)
+{% asset_img IMG_20180303_005456_197.jpg Makan-makan lagi dong %}
