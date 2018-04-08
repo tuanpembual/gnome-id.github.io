@@ -98,5 +98,8 @@ theme_config:
    - tag
   about_widget_content: >
     <p>Selamat datang di Komunitas GNOME Indonesia</p>
-    <p>Grup Telegram: <a href="t.me/gnomeid">t.me/gnomeid</a></p>
-    <p>Twitter: <a href="http://twitter.com/GNOME_ID">@GNOME_ID</a></p>
+    <p>
+      <a href="t.me/gnomeid"><i class="fa fa-telegram fa-2x"></i></a>
+      <a href="https://twitter.com/GNOME_ID"><i class="fa fa-twitter fa-2x"></i></a>
+      <a href="https://github.com/gnome-id"><i class="fa fa-github fa-2x"></i></a>
+    </p>
