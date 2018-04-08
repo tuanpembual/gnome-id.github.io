@@ -4,7 +4,7 @@ categories:
   - acara
 date: 2018-03-03 12:00:00
 thumbnail: img/2018-03-03/recipes-sticker.png
-tags: GNOME, hackfest
+tags: hackfest
 ---
 
 {% asset_img recipes-sticker.png %}

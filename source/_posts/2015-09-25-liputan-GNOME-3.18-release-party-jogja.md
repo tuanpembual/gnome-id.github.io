@@ -4,7 +4,7 @@ categories:
   - acara
 date: 2015-09-25 13:00:00
 thumbnail: 21800645559_c5b99d9451_c.jpg
-tags: GNOME, release party
+tags: pesta rilis
 ---
 
 {% asset_img 21800645559_c5b99d9451_c.jpg GNOME 3.18 Release Party %}
