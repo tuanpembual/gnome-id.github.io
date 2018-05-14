@@ -7,7 +7,7 @@ branches:
   - development
 
 before_script:
-- npm install
+- npm install -g hexo-cli
 - git config --global user.email publish@travis.github
 - git config --global user.name "Travis"
 - git remote set-url origin https://${GITHUB_TOKEN}@github.com/gnome-id/gnome-id.github.io.git
