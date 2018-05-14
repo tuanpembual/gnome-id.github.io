@@ -7,7 +7,7 @@
   },
   "scripts": {
     "test": "echo \"Warning: no test specified\"",
-    "build": "hexo clean && hexo generate && hexo deploy"
+    "build": "./node_modules/hexo/bin/hexo clean && ./node_modules/hexo/bin/hexo generate && ./node_modules/hexo/bin/hexo deploy"
   },
   "dependencies": {
     "gulp": "^3.9.1",
