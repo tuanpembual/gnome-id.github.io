@@ -6,6 +6,7 @@
     "version": "3.7.0"
   },
   "scripts": {
+    "test": "echo \"Warning: no test specified\"",
     "build": "hexo clean && hexo generate && hexo deploy"
   },
   "dependencies": {
