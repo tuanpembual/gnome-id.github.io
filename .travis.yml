@@ -17,6 +17,8 @@ before_script:
 deploy:
   provider: script
   script: npm run build
+  on:
+    branch: development
 
 env:
   global:
