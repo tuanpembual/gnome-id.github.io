@@ -16,7 +16,7 @@ deploy:
   provider: script
   script: 
   - npm install hexo --save
-  - hexo clean && hexo generate && hexo deploy
+  - npm run build
   on:
     branch: development
 
