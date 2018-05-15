@@ -12,13 +12,11 @@ before_script:
 - git remote set-url origin https://${GITHUB_TOKEN}@github.com/gnome-id/gnome-id.github.io.git
 - sed -i "s/__GITHUB_TOKEN__/${GITHUB_TOKEN}/" _config.yml
 
-script: 
-- npm install -g hexo-cli
-- npm install hexo --save
-
 deploy:
   provider: script
-  script: hexo clean && hexo generate && hexo deploy
+  script: 
+  - npm install hexo --save
+  - hexo clean && hexo generate && hexo deploy
   on:
     branch: development
 
