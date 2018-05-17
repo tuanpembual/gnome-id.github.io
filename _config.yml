@@ -78,7 +78,7 @@ theme: bootstrap-blog
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  skip_cleanup: true
+  skip_cleanup: false
   repo: https://__GITHUB_TOKEN__@github.com/gnome-id/gnome-id.github.io.git
   branch: master
 
