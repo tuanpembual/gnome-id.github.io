@@ -17,7 +17,7 @@ Kirimkan CFP Anda di: https://docs.google.com/forms/d/e/1FAIpQLSfKnffsc_Ke2ZEP3f
 ## Informasi Penting
 
 * Batas waktu:
-    * Pengiriman: 20 Mei 2018
+    * Pengiriman: 25 Mei 2018
     * Konfirmasi penerimaan: 1 Juni 2018 hingga 5 Juni 2018
     * Penerbitan Jadwal/Program: Awal Juli 2018
 * Konferensi:
