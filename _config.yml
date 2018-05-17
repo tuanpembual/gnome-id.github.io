@@ -79,6 +79,7 @@ theme: bootstrap-blog
 deploy:
   type: git
   skip_cleanup: false
+  message: Deploy to master {{ now('YYYY-MM-DD HH:mm:ss') }}
   repo: https://__GITHUB_TOKEN__@github.com/gnome-id/gnome-id.github.io.git
   branch: master
 
